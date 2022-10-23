@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .siderbar-icon {
+    @apply relative flex items-center justify-center h-12 w-12 mt-2 mb-2 
+            mx-auto shadow-lg bg-gray-800 text-green-500 hover:bg-green-800
+            hover:text-white rounded-3xl hover:rounded-2xl transition-all ease-in duration-200;
+  }
+  .sider-toolkit {
+    @apply absolute w-auto p-2 m-2 min-w-max left-14 rounded-md shadow-md
+            text-white bg-gray-900 text-lg font-bold transition-all
+            duration-100 scale-0 origin-left;
+  }
+  .table_content {
+    width: 100px;
+    height: 38em;
+  }
+  .modal_input_div {
+    height: 26rem;
+    width: 50rem;
+    background-color: white;
+    box-shadow: -1px 1px 4px black;
+  }
+  .modal_login {
+    height: 26rem;
+    width: 25rem;
+    background-color: white;
+    box-shadow: -1px 1px 4px black;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .modal_upload_div {
+    height: 21rem;
+    width: 25rem;
+    background-color: white;
+    box-shadow: -1px 1px 4px black;
+  }
+  .list-w {
+    width: 77rem;
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    border-radius: 10px;
+    padding: 10px;
+  }
+}
